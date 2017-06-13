@@ -14,7 +14,6 @@
 		<s:textfield name="username" key="user"/>
 		<s:textfield name="password" key="pass"/>
 		<s:submit key="login"/>
-<%-- 		<s:submit key="register" onclick="register();"/> --%>
 		<input type="submit" value="register" onclick="register();"/>
 	</s:form>		
 </body>

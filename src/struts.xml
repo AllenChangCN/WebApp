@@ -11,7 +11,8 @@
 	<!-- 所有的Action定义都应该放在package下 -->
 	<package name="lee" extends="struts-default">
 		<action name="login" class="allen.LoginAction">
-			<!-- 定义三个逻辑视图和物理资源之间的映射 -->		
+			<!-- 定义三个逻辑视图和物理资源之间的映射 -->	
+			<exception-mapping exception="java.lang.Exception" result="exception"/>	
 			<result name="input">/login.jsp</result>
 			<result name="error">/error.jsp</result>
 			<result name="success">/welcome.jsp</result>

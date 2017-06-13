@@ -52,8 +52,13 @@ public class LoginAction extends  ActionSupport
 			ActionContext.getContext().getSession().put("user",getUsername());
 			setTip("πßœ≤ƒ„");
 			ActionContext.getContext().getSession().put("tip",getTip());
-			System.out.println("hellow");
+			System.out.println("");
 			return SUCCESS;
+		}
+		if(getUsername().equals("exception"))
+		{
+			System.out.println("Have throw Exception");
+			throw new java.lang.Exception("java.lang“Ï≥£");
 		}
 		else
 		{
