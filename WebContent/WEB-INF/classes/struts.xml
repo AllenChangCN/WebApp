@@ -15,6 +15,13 @@
 			<result name="input">/login.jsp</result>
 			<result name="error">/error.jsp</result>
 			<result name="success">/welcome.jsp</result>
+			<result name="register">/register.jsp</result>
+		</action>
+		
+		<action name="test" class="allen.testAction">
+		</action>
+		
+		<action name="test1" class="allen.test1Action">
 		</action>
 	</package>
 </struts>

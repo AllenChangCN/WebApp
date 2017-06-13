@@ -60,4 +60,11 @@ public class LoginAction extends  ActionSupport
 			return ERROR;
 		}
 	}
+	
+	public String register() throws Exception
+	{
+//		setTip("»¶Ó­×¢²á");
+//		ActionContext.getContext().getSession().put("tip",getTip());
+		return "register";
+	}
 }
