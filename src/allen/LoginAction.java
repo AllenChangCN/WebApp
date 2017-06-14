@@ -58,6 +58,7 @@ public class LoginAction extends  ActionSupport
 		if(getUsername().equals("exception"))
 		{
 			System.out.println("Have throw Exception");
+			System.out.println("mmm ");
 			throw new java.lang.Exception("java.lang“Ï≥£");
 		}
 		else
